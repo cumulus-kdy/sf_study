@@ -1,8 +1,8 @@
 # sf_study
 study for Spring Framework
 
-1주차<hr/>
-===
+1주차 (2020.08.06 ~ 2020.08.10)<hr/>
+---
 ##### 1. 개발 환경 세팅
 - jdk/tomcat/mybatis, eclipse 설치 및 예제 수행
 - PropertyNotFoundException 에러 발생 :
@@ -12,4 +12,20 @@ study for Spring Framework
     
 ##### 2. github 계정 생성
 - <https://github.com/cumulus-kdy/sf_study.git>
-  
+
+
+2주차 (2020.08.06 ~ 2020.08.10)<hr/>
+---
+##### 1. 차트 테스트
+- chart_test 프로젝트 생성 후 WebContent 하위에 example.html, data.tsv 생성
+
+##### 2. api가이드
+<img src="./image/example1.jpg" width="450px" height="300px" title="example1"></img><br/>
+```json
+{
+	x_title : "quality",
+	y_title : "count",
+	x:[3,4,5,6,7,8],
+	y:[3,100,200,300,2]
+}
+```
