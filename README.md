@@ -20,12 +20,31 @@ study for Spring Framework
 - chart_test 프로젝트 생성 후 WebContent 하위에 example.html, data.tsv 생성
 
 ##### 2. api가이드
+- example1
 <img src="./image/example1.jpg" width="450px" height="300px" title="example1"></img><br/>
 ```json
 {
 	x_title : "quality",
 	y_title : "count",
-	x:[3,4,5,6,7,8],
-	y:[3,100,200,300,2]
+	array : [
+				{quality : 3, count : 4},
+				{quality : 3, count : 4},
+				...
+				{quality : 3, count : 4}
+	]
+}
+```
+- example2 (시간 남으면 할 예정)
+<img src="./image/example2.jpg" width="450px" height="300px" title="example2"></img><br/>
+```json
+{
+	x_title : "pH",
+	y_title : "fixed acidity",
+	array : [
+				{ph : 3, fa : 4},
+				{ph : 3, fa : 4},
+				...
+				{ph : 3, fa : 4}
+	]
 }
 ```
