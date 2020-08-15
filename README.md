@@ -27,10 +27,10 @@ study for Spring Framework
 	x_title : "quality",
 	y_title : "count",
 	array : [
-				{quality : 3, count : 4},
-				{quality : 3, count : 4},
+		{quality : 3, count : 4},
+		{quality : 3, count : 4},
 				...
-				{quality : 3, count : 4}
+		{quality : 3, count : 4}
 	]
 }
 ```
@@ -41,10 +41,10 @@ study for Spring Framework
 	x_title : "pH",
 	y_title : "fixed acidity",
 	array : [
-	{ph : 3, fa : 4},
-	{ph : 3, fa : 4},
-	...
-	{ph : 3, fa : 4}
+		{ph : 3, fa : 4},
+		{ph : 3, fa : 4},
+			...
+		{ph : 3, fa : 4}
 	]
 }
 ```
