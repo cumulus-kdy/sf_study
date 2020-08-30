@@ -29,3 +29,15 @@ study for Spring Framework
 - home.jsp 작성
 - common_resource.jsp / home.js / home.css 작성
 - jquery-1.12.4.min.js 추가 dd
+
+4주차 (2020.08.27 ~ 2020.08.31)<hr/>
+---
+##### 1. 차트 선정
+		- quality 값의 개수를 보여주는 Bar Chart
+		- pH와 fixed acidity 간의 상관관계를 나타내는 Scatter Plot
+##### 2. Database 세팅
+		- 테이블 product_quality 생성 후 wine_quality.csv에 있는 데이터 입력
+##### 3. 데이터 조회 및 처리를 위한 클래스 작성
+		- WineQDAO.java, WineQService.java, QCountVO.java, pHAcdVO.java, RestController.java 등 작성
+		- 페이지 로딩 시 ajax로 해당 데이터 수신 후 차트 생성.
+##### 4. 차트 구현
