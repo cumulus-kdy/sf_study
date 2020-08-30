@@ -28,4 +28,4 @@ study for Spring Framework
 - restController.java 작성
 - home.jsp 작성
 - common_resource.jsp / home.js / home.css 작성
-- jquery-1.12.4.min.js 추가
+- jquery-1.12.4.min.js 추가 dd

@@ -15,7 +15,7 @@ public class MovieDAOImpl implements MovieDAO {
     @Inject
     private SqlSession sqlSession;
     
-    private static final String Namespace = "com.devfun.mybatis.sql.test";
+    private static final String Namespace = "com.cumulus.mybatis.sql.test";
     
     @Override
     public List<MovieVO> selectMovie() throws Exception {

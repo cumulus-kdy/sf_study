@@ -15,8 +15,10 @@
         이렇게 해야 한다.
     -->
     
-    <select id="selectMovie" resultType="movieVO">
-        SELECT MOVIE_NAME, DIRECTOR, TYPES FROM MOVIE
+    <select id="selectQCount" resultType="QCountVO">
+    	SELECT QUALITY, COUNT(*) AS COUNT FROM PRODUCT_QUALITY GROUP BY QUALITY
     </select>
-    
+    <select id="selectpHAcd" resultType="pHAcdVO">
+    	SELECT PH, FIXED_ACIDITY FROM PRODUCT_QUALITY
+    </select>
 </mapper>
